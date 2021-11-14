@@ -26,7 +26,12 @@ class CardNFTV extends Component {
                 <p className="card-text">
                   <strong className="txt priceNFT"> {priceNFT} DMA </strong>
                 </p>
-                <button className="btn btn-dd">Comprar</button>
+                <div className="col-12">
+                  <input type="number" />
+                </div>
+                <div className="col-12">
+                  <button className="btn btn-dd">Comprar</button>
+                </div>
               </div>
             </div>
           </div>
