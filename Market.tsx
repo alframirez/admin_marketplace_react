@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CardNFT from './CardNFT';
 import Selector from './Selector';
 
 class Market extends Component {
@@ -9,8 +10,7 @@ class Market extends Component {
           <Selector />
         </div>
         <div className="row">
-          <div className="col">
-          </div>
+          <CardNFT />
         </div>
       </div>
     );
