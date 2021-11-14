@@ -3,29 +3,29 @@ import React, { Component } from 'react';
 class Selector extends Component {
   render() {
     return (
-      <div class="container">
+      <div className="container">
         {
           //Selector de componente
         }
-        <div class="row">
+        <div className="row">
           <div
-            class="btn-group"
+            className="btn-group"
             role="group"
             aria-label="Basic radio toggle button group"
           >
-            <label class="btn btn-d" for="btnradio1">
+            <label className="btn btn-d" for="btnradio1">
               <input
                 type="checkbox"
-                class="btn-check"
+                className="btn-check"
                 id="btnradio1"
                 autocomplete="off"
-              ></input>
+              />
               Market
             </label>
-            <label class="btn btn-d" for="btnradio2">
+            <label className="btn btn-d" for="btnradio2">
               Mi NFT
             </label>
-            <label class="btn btn-d" for="btnradio3">
+            <label className="btn btn-d" for="btnradio3">
               Login
             </label>
           </div>
@@ -34,6 +34,7 @@ class Selector extends Component {
         {
           // Dropdown de seleccion
         }
+        {/*
 
         <div className="row justify-content-center">
           <div className="col text-center">
@@ -67,6 +68,25 @@ class Selector extends Component {
             </div>
           </div>
         </div>
+        
+        */}
+
+        {
+          //prueba
+        }
+        <select
+          className="form-select  btn-dd"
+          aria-label="Default select example"
+        >
+          <option selected>Seleccionar Colección</option>
+          <option value="1">Colección 1</option>
+          <option value="2">Colección 2</option>
+          <option value="3">Colección 3</option>
+        </select>
+
+        {
+          //fin de la prueba
+        }
       </div>
     );
   }
