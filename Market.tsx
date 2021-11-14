@@ -8,7 +8,10 @@ class Market extends Component {
         <div className="row justify-content-center ">
           <Selector />
         </div>
-        <div className="row">.</div>
+        <div className="row">
+          <div className="col">
+          </div>
+        </div>
       </div>
     );
   }
