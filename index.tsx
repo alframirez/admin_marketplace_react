@@ -4,6 +4,8 @@ import Hello from './Hello';
 import Market from './Market';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MiNFT from './MisNFT';
+import Login from './Login';
 
 interface AppProps {}
 interface AppState {
@@ -21,7 +23,7 @@ class App extends Component<AppProps, AppState> {
   render() {
     return (
       <div>
-        <Market />
+        <Login />
       </div>
     );
   }
